@@ -1,7 +1,8 @@
 <div style="text-align: center;">
-  <h2>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h2>
+  <h1>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h1>
 </div>
 
+![Portada](https://github.com/pablongrs/MLOps_Steam/blob/master/img/portada_steam.jpg)
 
 ### Descripción del Proyecto
 En este proyecto se trabaja sobre la plataforma de juegos Steam. El objetivo es desarrollar un Producto minimo viable, que incluye una API y la implementacion de un sistema de recomendacion de juegos a usuarios.
