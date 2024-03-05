@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <h1>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h1>
+  <h2>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h2>
 </div>
 
 ![Portada](https://github.com/pablongrs/MLOps_Steam/blob/master/img/portada_steam.jpg)
