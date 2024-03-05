@@ -1,5 +1,5 @@
 <p align="center">
- <b style="font-size: 30px;"> Proyecto Integrador 1 (Data Engineer y Machine Learning) ()</b>
+ <b style="font-size: 60px;"> Proyecto Integrador 1 (Data Engineer y Machine Learning) ()</b>
 </p>
 
 ### Descripción del Proyecto
