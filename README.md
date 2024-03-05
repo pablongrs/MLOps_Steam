@@ -41,6 +41,8 @@ Luego se realizo la implementacion del modelo de recomendacion de videojuegos. P
 
 • `def recomendacion_juego( id de producto )`: Ingresando el id de producto, recibimos una lista con 5 juegos recomendados similares al ingresado.
 
+Notebook [Modelo_ML](https://github.com/pablongrs/MLOps_Steam/blob/master/Modelamiento.ipynb)
+
 ### Deploy Render
 
 Se decidió utilizar Render para el despliegue de la API. Render ofrece un servicio gratuito que, aunque proporciona una cantidad limitada de memoria, destaca por su simplicidad de despliegue.
