@@ -1,4 +1,6 @@
-<h2 style="text-align: center;">Proyecto Integrador 1 (Data Engineer y Machine Learning)</h2>
+<div style="text-align: center;">
+  <h2>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h2>
+</div>
 
 
 ### Descripción del Proyecto
