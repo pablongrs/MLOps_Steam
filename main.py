@@ -63,7 +63,8 @@ async def userForGenre(genero:str):
     # Filtrar  por el usuario con más horas jugadas
     user_masHoras = genre_game[genre_game['user_id'] == usuario_mas_horas]
     #Agrupa las horas jugadas por año para el usuario con más horas jugadas
-    horas_por_anio = user_masHoras.groupby('release_year')['playtime_forever'].sum() 
+    horas_por_anio = user_masHoras.groupby('release_year')['playtime_forever'].sum() / 60
+    horas_por_anio = horas_por_anio.round(1)  
     
 
     output = {'Genero': genero, 'Usuario': usuario_mas_horas, 'Horas jugadas por año':[horas_por_anio.to_dict()]}
