@@ -1,7 +1,8 @@
 <div style="text-align: center;">
-  <h2>Proyecto Integrador 1 (Data Engineer y Machine Learning)</h2>
+  <h2>PROYECTO INTEGRADOR 1 (Data Engineer y Machine Learning)</h2>
 </div>
 
+![Portada](https://github.com/pablongrs/MLOps_Steam/blob/master/img/portada_steam.jpg)
 
 ### Descripción del Proyecto
 En este proyecto se trabaja sobre la plataforma de juegos Steam. El objetivo es desarrollar un Producto minimo viable, que incluye una API y la implementacion de un sistema de recomendacion de juegos a usuarios.
@@ -40,14 +41,17 @@ Luego se realizo la implementacion del modelo de recomendacion de videojuegos. P
 
 • `def recomendacion_juego( id de producto )`: Ingresando el id de producto, recibimos una lista con 5 juegos recomendados similares al ingresado.
 
+Notebook [Modelo_ML](https://github.com/pablongrs/MLOps_Steam/blob/master/Modelamiento.ipynb)
+
 ### Deploy Render
 
 Se decidió utilizar Render para el despliegue de la API. Render ofrece un servicio gratuito que, aunque proporciona una cantidad limitada de memoria, destaca por su simplicidad de despliegue.
 
 [Render](https://mlops-steam-9iga.onrender.com/docs)
 
+####  Documentación
 
-
+[link](https://github.com/soyHenry/PI_ML_OPS/tree/FT)
 
 
 
