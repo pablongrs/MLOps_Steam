@@ -26,6 +26,7 @@ En base a estos conjuntos de datos se realizan las siguientes tareas.
 ### Endpoints
 
 El desarrollo de la API se realizo utilizando FastAPI. Se realizaron 5 funciones de obtencion de datos, cada una con un objetivo.
+El codigo se puede encontrar en el siguiente link: [Endpoints](https://github.com/pablongrs/MLOps_Steam/blob/master/main.py)
 
 • `developer( desarrollador : str )`: Retorna la cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora
 
