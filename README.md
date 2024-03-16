@@ -15,6 +15,8 @@ Para realizar este proyecto se dispone de 3 dataset, estos son:
 
 • user_reviews.json.gz: Conjunto de datos que contiene el id de usuarios, id del juego,reseñas de los juegos y recomendación o no de cada usuario.
 
+[Consigna](https://github.com/soyHenry/PI_ML_OPS/tree/FT)
+
 En base a estos conjuntos de datos se realizan las siguientes tareas.
 
 - **Extraccion, Transformacion y Carga de datos**
