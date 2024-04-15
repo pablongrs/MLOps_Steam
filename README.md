@@ -19,15 +19,15 @@ Para realizar este proyecto se dispone de 3 dataset, estos son:
 
 En base a estos conjuntos de datos se realizan las siguientes tareas.
 
-- **ETL**
-Durante esta etapa se empezo extrayendo los 3 conjuntos de datos los cuales estaban en formato json.  Luego se procedio a realizar el proceso de limpieza y normalizacion de los datos, donde se eliminaron valores nulos, duplicados y columnas innecesarias, se rellenaron filas vacias y se modificaron algunos tipos de datos.
-- **Analisis exploratorio de datos**
+- **ETL (Extraccion, Transformacion y Carga)**: 
+Durante esta etapa se empezo extrayendo los 3 conjuntos de datos los cuales estaban en formato json.  Luego se procedio a realizar el proceso de limpieza y normalizacion de los datos, donde se eliminaron valores nulos, duplicados y columnas innecesarias, se rellenaron filas vacias y se modificaron algunos tipos de datos. Luego de realizar este proceso se convirtieron a formato .parquet
+- **Analisis exploratorio de datos**: 
 En esta etapa se llevo a cabo el analisis de cada conjunto de datos, con el objetivo de comprender mejor los datos. Analizando medidas estadisticas, valores atipicos y realizando distintas visualizaciones.
-- **Desarrollo de API**
+- **Desarrollo de API**: 
 El desarrollo de la API se realizo utilizando FastAPI. Se crearon 5 funciones de obtencion de datos, cada una con el objetivo de mostrar cierta informacion.
-- **Implementacion de modelo de ML**
+- **Implementacion de modelo de ML**: 
 Se procedio a realizar una optimizacion sobre el conjunto de datos, resultando en un dataset mas compacto, luego se creo una funcion que  en base a un id pasado como argumento retornara una lista de juego similares. Por ultimo se procedio a entrenar el modelo utilizando los datos optimizados.
-- **Despliegue de API**
+- **Despliegue de API**: 
 Por ultimo se procedio a deployar el sistema de recomendacion y los endpoints en Render, para que cualquier persona tenga acceso a el sistema de recomendación de videojuegos y los endpoints.
 
 ### Endpoints
