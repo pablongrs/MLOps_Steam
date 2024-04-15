@@ -15,6 +15,8 @@ Para realizar este proyecto se dispone de 3 dataset, estos son:
 
 • user_reviews.json.gz: Conjunto de datos que contiene el id de usuarios, id del juego,reseñas de los juegos y recomendación o no de cada usuario.
 
+[Consigna](https://github.com/soyHenry/PI_ML_OPS/tree/FT)
+
 En base a estos conjuntos de datos se realizan las siguientes tareas.
 
 - **Extraccion, Transformacion y Carga de datos**
@@ -26,6 +28,7 @@ En base a estos conjuntos de datos se realizan las siguientes tareas.
 ### Endpoints
 
 El desarrollo de la API se realizo utilizando FastAPI. Se realizaron 5 funciones de obtencion de datos, cada una con un objetivo.
+El codigo se puede encontrar en el siguiente link: [Endpoints](https://github.com/pablongrs/MLOps_Steam/blob/master/main.py)
 
 • `developer( desarrollador : str )`: Retorna la cantidad de items y porcentaje de contenido Free por año según empresa desarrolladora
 
